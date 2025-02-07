@@ -1,3 +1,53 @@
 body {
-    background-color: honeydew;
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tree {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.trunk {
+    background-color: saddlebrown;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.branch {
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.branch:hover {
+    transform: scale(1.1);
+}
+.branch1 { top: 40px; left: -80px; }
+.branch2 { top: 20px; left: 50%; transform: translateX(-50%); }
+.branch3 { top: 40px; right: -80px; }
+
+.section {
+    display: none;
+    background: white;
+    text-align: left;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
 }
