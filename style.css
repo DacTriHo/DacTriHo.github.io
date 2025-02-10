@@ -37,7 +37,7 @@ body {
     transform: scale(1.1);
 }
 .branch1 { top: 40px; left: -80px; }
-.branch2 { top: 20px; left: 50%; transform: translateX(-50%); }
+.branch2 { top: 20px; left: 22%; }
 .branch3 { top: 40px; right: -80px; }
 
 .section {
