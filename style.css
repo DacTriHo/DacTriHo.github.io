@@ -6,14 +6,16 @@
 
 body {
     background-color: rgb(93, 135, 93);
+    overflow-x: hidden;
 }
 
 .divider {
-    background-image: url(images/field-sunset.jpg);
+    background-image: url(images/trees-divide.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 150px;
+    width: 100vw;
 }
 
 /*NAV BAR*/
