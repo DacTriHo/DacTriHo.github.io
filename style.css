@@ -11,6 +11,14 @@ body {
     background-size: cover;
 }
 
+.divider {
+    background-image: url(images/field-sunset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
 /*NAV BAR*/
 .topnav {
     background-image: url('images/Cover.png');
@@ -25,7 +33,7 @@ body {
 }
 .topnav a {
     float: left;
-    color: #0b2707;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
