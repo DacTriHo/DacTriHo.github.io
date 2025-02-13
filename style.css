@@ -5,10 +5,15 @@
 }
 
 body {
-    background-image: url('images/Cover.png');
-    background-repeat: no-repeat;
-    background-attachment: relative;
+    background-color: rgb(93, 135, 93);
+}
+
+.divider {
+    background-image: url(images/field-sunset.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
 }
 
 /*NAV BAR*/
@@ -16,20 +21,24 @@ body {
     background-image: url('images/Cover.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 10%;
+    background-position: center 11%;
     overflow: hidden;
     position: fixed;
     width: 100vw;
-    border: solid 5px #1d2f242e;
+    border: solid 2px #000000d8;
     z-index: 1000;
 }
 .topnav a {
     float: left;
-    color: #0b2707;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
+    font-family: "Cantata One", serif;
+    font-weight: 600;
+    font-style: normal;
+    border-right: 2px solid #000000;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -90,11 +99,11 @@ span {
 /*Sections*/
 .section {
     display: block;
-    background: rgba(100, 15, 15, 0.627);
+    background: rgba(152, 251, 152, 0.515);
     text-align: left;
     width: 80%;
     max-width: 400px;
-    margin: 20px auto;
+    margin: 100px auto;
     padding: 15px;
     border: 2px solid #4CAF50;
     border-radius: 10px;
