@@ -2,6 +2,11 @@
     border: 0;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -66,7 +71,7 @@ body {
     align-content: center;
     width: 100vw;
     min-height: 100vh;
-    border: solid 5px;
+    border-bottom: solid 5px rgba(14, 23, 26, 0.781);
 }
 /*Photo and Name*/
 .header {
@@ -105,15 +110,46 @@ span {
     color: #08610b;
 }
 
-/*Sections*/
+/*SECTIONS*/
 .section {
-    display: block;
-    background: rgba(152, 251, 152, 0.515);
-    text-align: left;
-    width: 80%;
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 15px;
-    border: 2px solid #4CAF50;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+
+}
+.section h1 {
+    background-image: url(images/field-sunset.jpg);
+    background-position: center 30%;
+    padding: 0 80px 0 80px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: "Darumadrop One", serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: bold;
+    border: solid 5px;
+    border-radius: 20px;
+}
+.content-box {
+    width: 100%;
+}
+
+.content-box h2 {
+    font-family: "Darumadrop One", serif;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.content-box *:not(h2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 253, 201);
+    height: 300px;
+}
+
+#contacts {
+    display: flex;
 }
