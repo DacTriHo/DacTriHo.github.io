@@ -4,14 +4,23 @@
     margin: 0;
 }
 
+body {
+    background-image: url('images/Cover.png');
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: cover;
+}
+
 /*NAV BAR*/
 .topnav {
-    background-color: #333;
+    background-image: url(images/Sunset.jpg);
+    background-size: cover;
+    background-position: left center;
     overflow: hidden;
     position: fixed;
-    margin: 0px;
-    top: 0;
-    width: vw;
+    width: 100vw;
+    border: solid 5px;
+    z-index: 1000;
 }
 .topnav a {
     float: left;
@@ -25,22 +34,16 @@
     background-color: #ddd;
     color: black;
 }
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
   
 /*HOME*/
 #home {
-    background-image: url('images/Cover.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: vw;
-    height: fit-content;
+    padding-top: 70px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    width: 100vw;
+    min-height: 100vht;
+    border: solid 5px;
 }
 /*Photo and Name*/
 .header {
@@ -50,56 +53,22 @@
     margin-bottom: 30px;
     width: 50%;
     justify-content: center;
-    position: absolute;
-    top: 0;
-    border: solid 5px;
+    position: relative;
 }
 .profile-photo {
-    width: 100px;
-    height: 100px;
-    border: solid 5px rgba(10, 10, 68, 0.516);
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgba(5, 96, 51, 0.388);
     border-radius: 50%;
-    margin-right: 300px;
 }
 .my-name {
-    font-family: sans-serif;
+    font-family: 'Raleway';
 }
-
-/*The Tree*/
-.tree-container {
-    background-image: url('images/Main-Tree.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-    border: solid 5px;
-}
-
-.nest {
-    background-color: #4CAF50;
-    color: white;
-    position: absolute;
-    border-radius: 20px;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-.nest:hover {
-    transform: scale(1.1);
-}
-.nest1 { top: 40px; left: -80px; }
-.nest2 { top: 20px; left: 22%; }
-.nest3 { top: 40px; right: -80px; }
 
 /*Sections*/
 .section {
-    display: none;
-    background: white;
+    display: block;
+    background: rgba(100, 15, 15, 0.627);
     text-align: left;
     width: 80%;
     max-width: 400px;
