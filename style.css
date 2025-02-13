@@ -150,6 +150,6 @@ span {
     height: 300px;
 }
 
-#contacts {
-    display: flex;
+#contacts .content-box {
+    display: grid;
 }
