@@ -13,10 +13,10 @@ body {
 
 /*NAV BAR*/
 .topnav {
-    background-image: url('images/Sunset.jpg');
+    background-image: url('images/Cover.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 98%;
+    background-position: center 10%;
     overflow: hidden;
     position: fixed;
     width: 100vw;
@@ -25,7 +25,7 @@ body {
 }
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #0b2707;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,24 +54,37 @@ body {
 .header {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     width: 50%;
     justify-content: center;
     position: relative;
 }
 .profile-photo {
-    width: 150px;
-    height: 150px;
-    border: solid 5px rgba(194, 236, 194, 0.483);
+    width: 180px;
+    height: 180px;
+    border: solid 5px rgba(7, 43, 25, 0.758);
     border-radius: 50%;
 }
 .my-name {
     font-family: "Candal", serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    color: rgba(194, 236, 194, 0.873);
+    font-style: initial;
+    font-size: 60px;
+    color: rgba(7, 43, 25, 0.758);
+}
+/*Overview*/
+.overview {
+    padding: 50px;
+    border: solid 8px rgba(1, 46, 21, 0.21);
+    border-radius: 20px;
+    background-color: rgba(152, 251, 152, 0.515);
+    color: rgba(4, 27, 15, 0.857);
+    font-weight: bold;
+    font-size: 20px;
+}
+span {
+    color: #08610b;
 }
 
 /*Sections*/
