@@ -23,12 +23,16 @@ body {
     background-image: url('images/Cover.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 11%;
+    background-position: center 18%;
     overflow: hidden;
     position: fixed;
+    height: 10vh;
     width: 100vw;
     border: solid 2px #000000d8;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .topnav a {
     float: left;
@@ -41,6 +45,9 @@ body {
     font-weight: 600;
     font-style: normal;
     border-right: 2px solid #000000;
+}
+.topnav a:first-child {
+    border-left: 2px solid #000000;
 }
 .topnav a:hover {
     background-color: #ddd;
