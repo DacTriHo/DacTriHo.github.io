@@ -173,4 +173,9 @@ span {
     display: block;
     margin: 0 auto;
     margin-top: 5px;
+    cursor: pointer;
+}
+#contacts a:hover img {
+    transform: scale(1.1);
+    transition: transorm 0.3s ease;
 }
