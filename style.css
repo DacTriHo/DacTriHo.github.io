@@ -45,8 +45,8 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 16px;
-    font-family: "Cantata One", serif;
+    font-size: 28px;
+    font-family: "Monomaniac One", serif;
     font-weight: 600;
     font-style: normal;
     border-right: 2px solid #000000;
@@ -88,11 +88,12 @@ body {
     height: 180px;
     border: solid 5px rgba(7, 43, 25, 0.758);
     border-radius: 50%;
+    margin-right: 25px;
 }
 .my-name {
-    font-family: "Candal", serif;
+    font-family: "Kumar One", serif;
     font-weight: 400;
-    font-style: initial;
+    font-style: normal;
     font-size: 60px;
     color: rgba(7, 43, 25, 0.758);
 }
@@ -103,7 +104,9 @@ body {
     border-radius: 20px;
     background-color: rgba(152, 251, 152, 0.515);
     color: rgba(4, 27, 15, 0.857);
-    font-weight: bold;
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
 }
 .home-name {
@@ -190,6 +193,9 @@ body {
 }
 
 #bio p {
+    font-family: "Diphylleia", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 20px;
 }
 
@@ -267,4 +273,41 @@ body {
     font-family: "Monomaniac One", serif;
     font-size: 18px;
     margin: 0;
+}
+
+/*Project*/
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px; /* Add space between items */
+}
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px rgba(107, 198, 82, 0.537);
+    border-radius: 10px;
+    background-color: rgb(201, 253, 201);
+}
+.project-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.project-item h3 {
+    font-family: "Monomaniac One", serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.project-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+.project-item li {
+    font-family: "Monomaniac One", serif;
+    font-size: 18px;
+    margin-bottom: 5px;
 }

@@ -9,7 +9,7 @@
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Monomaniac+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Delicious+Handrawn&family=Diphylleia&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kumar+One&family=Monomaniac+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -91,7 +91,9 @@
         <h2>Education</h2>
           <div class="education-grid">
             <div class="education-item">
-              <img src="icons/SFU-mark.png" alt="SFU Icon">
+              <a href="https://www.sfu.ca/" target="_blank">
+                <img src="icons/SFU-mark.png" alt="SFU Icon">
+              </a>
               <div class="education-text">
                 <h3>Bachelor of Science in Computer Science</h3>
                 <p>September 2023 - Present</p>
@@ -99,7 +101,9 @@
               </div>
             </div>
             <div class="education-item">
-              <img src="icons/Gonzaga-mark.png" alt="Gonzaga Icon">
+              <a href="https://gonzaga.nlesd.ca/" target="_blank">
+                <img src="icons/Gonzaga-mark.png" alt="Gonzaga Icon">
+              </a>
               <div class="education-text">
                 <h3>Highschool Diploma</h3>
                 <p>September 2021 - June 2023</p>
@@ -115,16 +119,55 @@
       <!--Experiences-->
       <div class="section" id="experiences">
         <h1>Experiences</h1>
-        <div class="content-box">
+        <!--Projects-->
+        <div class="content-box" id="projects">
           <h2>Academic Projects</h2>
-          <p>[PlaceHolder]</p>
+          <div class="projects-grid">
+            <div class="project-item">
+              <img src="icons/RISCV-mark-png.png" alt="RISCV Project Icon">
+              <h3>RISC-V Emulator in C
+                <br>Introduction to Computer Systems - Simon Fraser University - Burnaby, BC
+              </h3>
+              <ul>
+                <li>Unpacked 32-bit machine code instructions using masking and shifting.</li>
+                <li>Implemented basic RISC-V instructions to simulate RISC-V instructions within C.</li>
+                <li>Created a custom instruction to validate the system's flexibility and extensibility.</li>
+              </ul>            
+            </div>
+            <div class="project-item">
+              <img src="icons/cache-mark.png" alt="Cache Project Icon">
+              <h3>Cache Emulator in C
+                  <br>Introduction to Computer Systems - Simon Fraser University - Burnaby, BC
+              </h3>
+              <ul>
+                <li>Implemented helper functions using an LRU policy for cache operations.</li>
+                <li>Developed a cache simulator in C using valgrind memory traces.</li>
+                <li>Enhanced the cache system based on a two-level exclusive cache hierarchy.</li>
+              </ul>           
+            </div>
+            <div class="project-item">
+              <img src="icons/heap-mark.png" alt="Heap Project Icon">
+              <h3>HeapT Template Class Implementation
+                <br>Data Structures and Programming - Simon Fraser University - Burnaby, BC
+              </h3>
+              <ul>
+                <li>Developed a generic HeapT template class to implement a min-heap.</li>
+                <li>Wrote and tested helper methods to preserve heap properties.</li>
+                <li>Created a largestm template function to extract the top m largest elements from an unordered vector.</li>
+              </ul>            
+            </div>
+          </div>
         </div>
-        <div class="content-box">
+
+        <!--Volunteer-->
+        <div class="content-box" id="volunteer">
           <h2>Volunteer Work</h2>
           <p>[PlaceHolder]</p>
         </div>
-        <div class="content-box">
-          <h2>Resume/CV</h2>
+
+        <!--Resume-->
+        <div class="content-box" id="resume">
+          <h2>Resume</h2>
           <p>[PlaceHolder]</p>
         </div>
       </div>
