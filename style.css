@@ -106,7 +106,7 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
-span {
+.home-name {
     color: #08610b;
 }
 
@@ -133,7 +133,7 @@ span {
     border-radius: 20px;
 }
 .content-box {
-    width: 100%;
+    width: 80%;
 }
 
 .content-box h2 {
@@ -150,6 +150,7 @@ span {
     height: 300px;
 }
 
+/*Contacts*/
 .contacts-grid {
     margin-top: 30px;
     display: grid;
@@ -179,3 +180,29 @@ span {
     transform: scale(1.1);
     transition: transorm 0.3s ease;
 }
+
+/*Bio*/
+#bio .quote {
+    display: block; 
+    margin-top: 20px; 
+    font-style: italic; 
+    text-align: center; 
+    height: fit-content;
+}
+
+#bio p {
+    font-size: 20px;
+}
+
+#bio *:not(h2, .quote) {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 253, 201);
+    height: 300px;
+    padding: 50px 20px 0 20px;
+    border: solid 5px rgba(107, 198, 82, 0.537);
+    border-radius: 30px;
+}
+
+
