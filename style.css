@@ -212,6 +212,7 @@ body {
     border: solid 5px;
     background-color: rgb(201, 253, 201);
     border: solid 5px rgba(107, 198, 82, 0.537);
+    margin-bottom: 20px;
 }
 .skill-column {
     border: solid 1px;
@@ -232,4 +233,38 @@ body {
     font-family: "Monomaniac One", serif;
     font-size: 18px;
     margin-bottom: 5px;
+}
+
+/*Education*/
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a single column layout */
+    gap: 20px; /* Add space between items */
+}
+.education-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px rgba(107, 198, 82, 0.537);
+    border-radius: 10px;
+    background-color: rgb(201, 253, 201);
+}
+.education-item img {
+    width: 120px;
+    height: 80px;
+    margin-right: 20px;
+}
+.education-text {
+    text-align: left;
+}
+.education-text h3 {
+    font-family: "Monomaniac One", serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.education-text p {
+    font-family: "Monomaniac One", serif;
+    font-size: 18px;
+    margin: 0;
 }
