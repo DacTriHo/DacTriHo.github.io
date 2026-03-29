@@ -18,6 +18,7 @@
       <a href="#home">Home</a>
       <a href="#about">About Me</a>
       <a href="#experiences">Experiences</a>
+      <a href="#resume">Resumes</a>
       <a href="#contacts">Contacts</a>
     </div>
     
@@ -44,10 +45,10 @@
         <div class="content-box" id="bio">
           <h2>Bio</h2>
           <p>
-            My name is Dac Tri Ho and I am Computer Science major of Simon Fraser University.
-            <br>Born in 2005 and raised in Ho Chi Minh City, Vietnam. I have only been in Canada since 2021.
-            <br><br>I have always enjoyed coding since I started learning the basics of it since Highschol.
-            <br>I also enjoy doing puzzle-related activities and just generally learning more about the world around me.
+            My name is Dac Tri Ho and I am a Computer Science student at Simon Fraser University.
+            <br>Born in 2005 and raised in Ho Chi Minh City, Vietnam. I have been in Canada since 2021.
+            <br><br>I enjoy building software across systems, web, and architecture-focused projects.
+            <br>I am especially interested in low-level systems, hardware and software co-design, and practical engineering workflows.
             <br><span class="quote">"The best time to plant a tree is twenty years ago. The second best time is today.”<br>― Stephen M.R. Covey, The SPEED of Trust: The One Thing that Changes Everything</span>
           </p>
         </div>
@@ -57,37 +58,59 @@
           <h2>Skills</h2>
           <div class="skills-grid">
             <div class="skill-column">
-              <h3>Programming Languages</h3>
+              <h3>Languages</h3>
               <ul>
-                <li>C++</li>
-                <li>C#</li>
                 <li>C</li>
+                <li>C++</li>
+                <li>Bash</li>
                 <li>Python</li>
-                <li>Assembly (RISC-V)</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>SQL</li>
               </ul>
             </div>
             <div class="skill-column">
-              <h3>Operating Systems</h3>
+              <h3>Web & Backend</h3>
               <ul>
-                <li>Windows</li>
+                <li>Next.js</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>REST APIs</li>
+                <li>PHP</li>
+                <li>Firebase</li>
+                <li>Authentication</li>
+              </ul>
+            </div>
+            <div class="skill-column">
+              <h3>Systems & Hardware</h3>
+              <ul>
                 <li>Linux</li>
+                <li>POSIX</li>
+                <li>Memory Management</li>
+                <li>Signals</li>
+                <li>Concurrency</li>
+                <li>RISC-V</li>
+                <li>Cache Systems</li>
+                <li>Pipelining</li>
               </ul>
             </div>
             <div class="skill-column">
-              <h3>Softwares</h3>
+              <h3>Tools</h3>
               <ul>
-                <li>Visual Studio Code</li>
-                <li>Unity</li>
-                <li>IDLE</li>
-                <li>MATLAB</li>
-                <li>Microsoft Office</li>
+                <li>Git</li>
+                <li>Docker</li>
+                <li>CMake</li>
+                <li>Valgrind</li>
+                <li>Verilator</li>
+                <li>SBT</li>
+                <li>GitHub Actions</li>
               </ul>
             </div>
           </div>
         </div>
 
         <!--Education-->
-        <div class="content-box" id="skills">
+        <div class="content-box" id="education">
         <h2>Education</h2>
           <div class="education-grid">
             <div class="education-item">
@@ -96,18 +119,8 @@
               </a>
               <div class="education-text">
                 <h3>Bachelor of Science in Computer Science</h3>
-                <p>September 2023 - Present</p>
-                <p>Simon Fraser University - Burnaby, BC | CGPA: 3.69</p>
-              </div>
-            </div>
-            <div class="education-item">
-              <a href="https://gonzaga.nlesd.ca/" target="_blank">
-                <img src="icons/Gonzaga-mark.png" alt="Gonzaga Icon">
-              </a>
-              <div class="education-text">
-                <h3>Highschool Diploma</h3>
-                <p>September 2021 - June 2023</p>
-                <p>Gonzaga High School - St. John's, NL</p>
+                <p>Simon Fraser University - Burnaby, BC</p>
+                <p>Expected Fall 2027 | CGPA: 3.69/4.33</p>
               </div>
             </div>
           </div>
@@ -119,70 +132,109 @@
       <!--Experiences-->
       <div class="section" id="experiences">
         <h1>Experiences</h1>
-        <!--Projects-->
-        <div class="content-box" id="projects">
-          <h2>Academic Projects</h2>
-          <div class="projects-grid">
-            <div class="project-item">
-              <img src="icons/RISCV-mark-png.png" alt="RISCV Project Icon">
-              <h3>RISC-V Emulator in C
-                <br>Introduction to Computer Systems - Simon Fraser University - Burnaby, BC
-              </h3>
+
+        <div class="content-box" id="work-experience">
+          <h2>Work Experience</h2>
+          <div class="experience-grid">
+            <div class="experience-item">
+              <img src="icons/RISCV-mark-png.png" alt="Research Assistant Icon">
+              <h3>ARCH Research Assistant - Hardware Accelerator Development</h3>
+              <p class="role-meta">Simon Fraser University | Apr 2025 - Apr 2026 | Burnaby, BC</p>
               <ul>
-                <li>Unpacked 32-bit machine code instructions using masking and shifting.</li>
-                <li>Implemented basic RISC-V instructions to simulate RISC-V instructions within C.</li>
-                <li>Created a custom instruction to validate the system's flexibility and extensibility.</li>
-              </ul>            
+                <li>Designed and implemented RISC-V hardware accelerators in Chisel using the Chipyard SoC framework.</li>
+                <li>Integrated accelerators with Rocket CPU and debugged memory access, timing, and control signal issues.</li>
+                <li>Automated simulation and regression testing with Verilator and SBT to improve development efficiency.</li>
+                <li>Analyzed Gemmini accelerator performance trade-offs for AI/ML workloads in hardware and software co-design contexts.</li>
+              </ul>
             </div>
-            <div class="project-item">
-              <img src="icons/cache-mark.png" alt="Cache Project Icon">
-              <h3>Cache Emulator in C
-                  <br>Introduction to Computer Systems - Simon Fraser University - Burnaby, BC
-              </h3>
+            <div class="experience-item">
+              <img src="icons/cjsf.png" alt="Web Developer Icon">
+              <h3>Web Developer</h3>
+              <p class="role-meta">CJSF 90.1 FM Radio - Simon Fraser University | May 2025 - Present | Burnaby, BC</p>
               <ul>
-                <li>Implemented helper functions using an LRU policy for cache operations.</li>
-                <li>Developed a cache simulator in C using valgrind memory traces.</li>
-                <li>Enhanced the cache system based on a two-level exclusive cache hierarchy.</li>
-              </ul>           
+                <li>Developed a full-stack platform using Next.js, TypeScript, and PHP for internal station operations.</li>
+                <li>Designed reusable API abstraction layers for RESTful requests to improve maintainability.</li>
+                <li>Implemented authentication flows including login, signup, and session management.</li>
+                <li>Resolved CORS integration issues between modern frontend and legacy backend systems.</li>
+              </ul>
             </div>
-            <div class="project-item">
-              <img src="icons/heap-mark.png" alt="Heap Project Icon">
-              <h3>HeapT Template Class Implementation
-                <br>Data Structures and Programming - Simon Fraser University - Burnaby, BC
-              </h3>
+            <div class="experience-item">
+              <img src="icons/tutor-mark.png" alt="Coding Tutor Icon">
+              <h3>Coding Tutor - Introduction to Computer Systems</h3>
+              <p class="role-meta">Simon Fraser University | Feb 2025 - Jan 2026 | Burnaby, BC</p>
               <ul>
-                <li>Developed a generic HeapT template class to implement a min-heap.</li>
-                <li>Wrote and tested helper methods to preserve heap properties.</li>
-                <li>Created a largestm template function to extract the top m largest elements from an unordered vector.</li>
-              </ul>            
+                <li>Tutored students in memory hierarchy, pipelining, and assembly programming concepts.</li>
+                <li>Guided debugging and optimization of C programs to improve correctness and performance.</li>
+                <li>Explained complex systems concepts with structured and practical problem-solving methods.</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <!--Volunteer-->
-        <div class="content-box" id="volunteer">
-          <h2>Volunteer Work</h2>
-          <div class="volunteer-grid">
-            <div class="volunteer-item">
-              <img src="icons/tutor-mark.png" alt="Tutor Icon">
-              <h3>Peer Tutor for Introduction to Computer Systems
-                <br>Simon Fraser University - Burnaby, BC
-              </h3>
+        <!--Projects-->
+        <div class="content-box" id="projects">
+          <h2>Technical Projects</h2>
+          <div class="projects-grid">
+            <div class="project-item">
+              <img src="icons/terminal.png" alt="Shell Project Icon">
+              <h3>POSIX Simple Shell Emulator</h3>
+              <p class="project-stack">C, CMake, Linux</p>
               <ul>
-                <li>Tutored students in Introduction to Computer Systems (CMPT 295) by providing guidance on key concepts such as computer architecture, RISC-V, caches, pipelines, memory systems, and assembly language programming.</li>
-                <li>Explained complex topics such as pipelining and cache performance using approaches that have helped me through the course to enhance understanding and application for new students.</li>
-                <li>Assisted newer students with debugging and optimizing C and assembly code while emphasizing best practices in low-level programming that I have learnt myself through my own experiences of the course.</li>
+                <li>Implemented process control using fork(), exec(), and waitpid() for foreground and background execution.</li>
+                <li>Developed internal commands with robust command parsing and error handling.</li>
+                <li>Handled SIGINT using custom signal handlers to maintain shell stability.</li>
+                <li>Built history support with !! and indexed command recall for usability.</li>
               </ul>
             </div>
-            <div class="volunteer-item">
-              <img src="icons/library-mark.png" alt="Library Volunteer Icon">
-              <h3>Library Volunteer
-                <br>High School's Library - Gonzaga High School - St. John's, NL
-              </h3>
+            <div class="project-item">
+              <img src="icons/RISCV-mark-png.png" alt="RISCV Project Icon">
+              <h3>RISC-V Emulator</h3>
+              <p class="project-stack">C, Valgrind, CMake</p>
               <ul>
-                <li>Mainly worked in the book room with other volunteers to help organize and keep stock of books that were not used in the main library.</li>
-                <li>Helped set up and clean up the library before and after presentations and events whenever they are scheduled.</li>
-                <li>Distributed and collected textbooks from each classroom at the start and end of each semester to ensure accurate inventory management and proper allocation of books.</li>
+                <li>Parsed and decoded 32-bit machine instructions using low-level bit manipulation.</li>
+                <li>Implemented execution for arithmetic, logical, and control-flow instructions.</li>
+                <li>Simulated register and instruction flow updates to replicate CPU behavior.</li>
+              </ul>            
+            </div>
+            <div class="project-item">
+              <img src="icons/cache-mark.png" alt="Cache Project Icon">
+              <h3>Cache Emulator</h3>
+              <p class="project-stack">C, Valgrind</p>
+              <ul>
+                <li>Simulated probing, insertion, and eviction using an LRU replacement policy.</li>
+                <li>Processed Valgrind traces to analyze hit and miss patterns.</li>
+                <li>Extended to multi-level cache hierarchy to evaluate latency and performance trade-offs.</li>
+              </ul>           
+            </div>
+            <div class="project-item">
+              <img src="icons/heap-mark.png" alt="Heap Project Icon">
+              <h3>Custom Memory Allocator</h3>
+              <p class="project-stack">C, Linux</p>
+              <ul>
+                <li>Implemented user-level heap management with sbrk() for dynamic allocation.</li>
+                <li>Developed first-fit, best-fit, and worst-fit allocation strategies with free-list management.</li>
+                <li>Implemented block splitting and coalescing to reduce fragmentation.</li>
+              </ul>            
+            </div>
+            <div class="project-item">
+              <img src="icons/apple-touch-icon.png" alt="Tabmark Project Icon">
+              <h3>Tabmark Website</h3>
+              <p class="project-stack">React.js, Node.js, Firebase</p>
+              <ul>
+                <li>Built a full-stack web app to organize and schedule browser tabs across devices.</li>
+                <li>Set up CI/CD pipelines in GitHub Actions for testing, building, and deployment.</li>
+                <li>Implemented automated reminder notifications using the SendGrid API.</li>
+                <li>Managed cloud-backed real-time synchronization with Firebase.</li>
+              </ul>
+            </div>
+            <div class="project-item">
+              <img src="icons/library-mark.png" alt="Library Management Icon">
+              <h3>Library Management System</h3>
+              <p class="project-stack">SQL, Relational Databases</p>
+              <ul>
+                <li>Designed normalized schemas and ER models up to BCNF for core entities and workflows.</li>
+                <li>Implemented complex SQL queries and transactions for search, borrowing, returns, and events.</li>
+                <li>Applied constraints and triggers to maintain data integrity and overdue handling logic.</li>
               </ul>
             </div>
           </div>
@@ -190,10 +242,29 @@
 
         <!--Resume-->
         <div class="content-box" id="resume">
-          <h2>Resume</h2>
-          <a href="images/Resume.pdf" download>
-            <img src="icons/pdf-mark.png" alt="Download Resume Icon">
-          </a>
+          <h2>Resume Downloads</h2>
+          <div class="resume-grid">
+            <a class="resume-card" href="images/SWE.pdf" download>
+              <img src="icons/pdf-mark.png" alt="Software Resume Icon">
+              <h3>Software Resume</h3>
+            </a>
+            <a class="resume-card" href="images/Webdev.pdf" download>
+              <img src="icons/pdf-mark.png" alt="Web Development Resume Icon">
+              <h3>Web Development Resume</h3>
+            </a>
+            <a class="resume-card" href="images/Hardware.pdf" download>
+              <img src="icons/pdf-mark.png" alt="Hardware Resume Icon">
+              <h3>Hardware Resume</h3>
+            </a>
+            <a class="resume-card" href="images/Embedded.pdf" download>
+              <img src="icons/pdf-mark.png" alt="Embedded Resume Icon">
+              <h3>Embedded Resume</h3>
+            </a>
+            <a class="resume-card" href="images/Resume_Tri.pdf" download>
+              <img src="icons/pdf-mark.png" alt="General Resume Icon">
+              <h3>General Resume</h3>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -211,13 +282,13 @@
           </div>
           <div class="contact-item">
             <h2>LinkedIn</h2>
-            <a href="https://www.linkedin.com/in/tri-ho-36baa5343/" target="_blank">
+            <a href="https://www.linkedin.com/in/dac-tri-ho/" target="_blank">
               <img src="icons/linkedin-mark.png" alt="Clickable LinkedIn's Icon">
             </a>
           </div>
           <div class="contact-item">
             <h2>Email</h2>
-            <a href="mailto:trihodac66@gmail.com">
+            <a href="mailto:dth10@sfu.ca">
               <img src="icons/mail-mark.png" alt="Clickable Mail's Icon">
             </a>
           </div>
